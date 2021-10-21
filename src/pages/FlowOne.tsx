@@ -19,6 +19,11 @@ export type typeFlow1 = {
 		discription: string;
 	};
 };
+export const FallBack = () => (
+	<div>
+		<h1>Loading</h1>
+	</div>
+);
 const FlowOne: React.FC = () => {
 	const { data, error, isLoading } = useGetAllPostsFromFlow1Query('');
 
@@ -30,13 +35,7 @@ const FlowOne: React.FC = () => {
 		return <div>{isLoading}</div>;
 	} else
 		return (
-			<Suspense
-				fallback={
-					<>
-						<h1>loading</h1>
-					</>
-				}
-			>
+			<Suspense fallback={<FallBack />}>
 				<>
 					{data?.map((item: flow1, index: number) => {
 						return <CollapsibleCard key={index} details={item} />;
