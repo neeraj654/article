@@ -1,9 +1,7 @@
 import React from 'react';
 import {
 	Box,
-	Button,
 	Card,
-	CardMedia,
 	FormControl,
 	FormControlLabel,
 	Grid,
@@ -21,13 +19,10 @@ import {
 	getMidData,
 	updateparams,
 } from '../features/radioElementController/radioElementController';
-import MuiTimeline, {
-	factualdiscrepanciesInterface,
-} from '../components/Mui/Timeline/MuiTimeline';
+import MuiTimeline from '../components/Mui/Timeline/MuiTimeline';
 import { useParams } from 'react-router';
 import { useGetAllPostsFromFlow1Query } from '../api/api';
-import getImage from '../services/getImage/getImage';
-// import { format } from 'date-fns';
+import Factualdiscrepancies from '../components/Mui/Factualdiscrepancies/Factualdiscrepancies';
 const Detail = () => {
 	useGetAllPostsFromFlow1Query('');
 	const dispatch = useAppDispatch();
@@ -56,10 +51,7 @@ const Detail = () => {
 	React.useEffect(() => {
 		dispatch(updateparams(params.id));
 	}, [params]);
-	const factualdiscrepancies = useAppSelector((state) => {
-		const radioElementController: any = state.radioElementController;
-		return radioElementController.factualdiscrepancies;
-	});
+
 	const date = useAppSelector((state) => {
 		const radioElementController: any = state.radioElementController;
 		return radioElementController.date;
@@ -68,9 +60,6 @@ const Detail = () => {
 		const radioElementController: any = state.radioElementController;
 		return radioElementController.title;
 	});
-
-	console.log('factualdiscrepancies', factualdiscrepancies);
-	console.log('date', date);
 	return (
 		<Box marginTop='24px'>
 			<Grid container>
@@ -134,68 +123,7 @@ const Detail = () => {
 							Factual discrepencies
 						</Typography>
 						<Box height='calc(100vh - 245px)' sx={{ overflow: 'scroll' }}>
-							{factualdiscrepancies.map(
-								(
-									item: factualdiscrepanciesInterface,
-									index: number
-								) => {
-									return (
-										<Box
-											key={index}
-											sx={{
-												backgroundColor: '#EDECFF',
-												marginTop: '16px',
-											}}
-										>
-											<Grid container>
-												<Grid item md={2}>
-													<Box
-														sx={{
-															backgroundColor: '#DAD7FF',
-															borderRadius: '10px',
-															padding: '6px',
-															width: '100%',
-															height: '100%',
-															display: 'grid',
-															alignContent: 'center',
-															justifyItems: 'center',
-														}}
-													>
-														<CardMedia
-															component='img'
-															image={getImage(item.by)}
-															alt='logo'
-														/>
-													</Box>
-												</Grid>
-												<Grid item md={10}>
-													<Box padding='10px'>
-														<Typography fontSize='12px' paragraph>
-															{item.discription}
-														</Typography>
-														<Button
-															variant='outlined'
-															sx={{
-																borderRadius: '50px',
-																paddingX: '16px',
-																paddingY: '2px',
-																fontSize: '10px',
-																textTransform: 'none',
-																background: '#D2D0E2',
-																float: 'right',
-																position: 'relative',
-																bottom: '8px',
-															}}
-														>
-															View source
-														</Button>
-													</Box>
-												</Grid>
-											</Grid>
-										</Box>
-									);
-								}
-							)}
+							<Factualdiscrepancies />
 						</Box>
 					</Card>
 				</Grid>
