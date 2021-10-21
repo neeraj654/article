@@ -1,9 +1,177 @@
 {
-	"posts": [
+	"flow1": [
 		{
 			"id": 1,
-			"title": "json-server",
-			"author": "typicode"
+			"title": "2020 Hathrus and murder case",
+			"date": "2012-07-14T01:00:00+01:00",
+			"sources": [
+				"Hindustan times",
+				"Times now",
+				"The wire",
+				"Scroll.in"
+			],
+			"img": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202010/hathras_police-sixteen_nine.jpg?size=948:533",
+			"discription": "The Hathras \u2018rape\u2019 took place on 14 September, and the victim succumbed to her injuries on 29 September. She was forcibly cremated at 2.25 am on 30 September. But even before this cremation came the news that a 22-year-old woman from the Gihar SC community was allegedly abducted, thrashed, and gang-raped by two men \u2014 Shahid and Salil \u2014 on 29 September in UP\u2019s Balrampur. Two others were also arrested on charges of conspiracy.\r\n\r\nMedia reports at the time said a \u201Churried cremation\u201D took place in the \u201Cpresence of family members\u201D, hours after the post-mortem report came out. \r\n\r\nSpeaking to ThePrint, the Balrampur woman\u2019s brother recalled: \u201CI tried to explain to them (the authorities) that we cannot burn her according to our rituals, but they started pressuring and intimidating us, saying \u2018if you don\u2019t cremate her, the media will come and cause a tamasha and the body will be dug up, and she will not be at rest. Better burn her\u2019. All the family members were pressured separately; we couldn\u2019t do anything.\u201D\r\n\r\nThe brother was the one who lit the pyre after sunset, going against the family\u2019s rituals, amid a heavy police presence. \u201CI was forced to cremate her. It felt like I was cremating a criminal, not a victim. Only our maternal grandfather was present, but what could he do?\u201D the brother said.\r\n\r\n\u201CWe are poor and uneducated people. We had to live in that area where the accused also lived. The police forced us; we did not know whom to trust anymore or how to make our voices heard. We were very scared,\u201D he added.\r\n\r\nThe maternal grandfather, a former secretary of the gram panchayat, said: \u201CSince the time her body arrived, the police kept saying \u2018it\u2019s better to cremate her as quickly as possible\u2026 you are a sarkari man, you understand\u2019.\u201D\r\n\r\nThe family\u2019s lawyer Mrigendra Upadhyay said the brother told him about the forced cremation after it was done, and only when he asked him specifically about the police forcing the family to do it hurriedly.\r\n\r\n\u201CIn fact, Superintendent of Police Dev Ranjan Verma sent police personnel to my residence, and attempts were made to pressure me into asking the family to not talk to the media regarding anything,\u201D Upadhyay claimed.\r\n\r\nHowever, SP Verma denied the family\u2019s claims and called them \u201Cconjecture\u201D.\r\n\r\n\u201CWhy are they making allegations after a year? This lawyer is vindictive; we had lodged an FIR against him earlier and now he wants to pin all this on us. Even the CM and ADG met the family then. This is conjecture\u2026 At that time they hadn\u2019t said anything. They might be making these allegations probably because their demands weren\u2019t met. Anyone can say anything here,\u201D Verma told ThePrint.\r\n\r\nLawyer Upadhyay responded to these questions by saying: \u201CThe body was already cremated, and the family already had a lot of societal pressure on them. The trial had to start and they didn\u2019t think about taking the allegations of intimidation and forceful cremation to the court. They just wanted the culprits to be punished at that point of time.\u201D",
+			"factualdiscrepancies": [
+				{
+					"id": 1,
+					"by": "Hindustan times",
+					"discription": "There are some news sources which reported that the victim was cremated in the middle of the night without the permission if the family and the authorities are misleading people saying the family had been present at the funeral."
+				},
+				{
+					"id": 2,
+					"by": "Times now",
+					"discription": "There are some new sources reported that the police had taken permissions from the family prior to cremation and the family was now lying."
+				},
+				{
+					"id": 3,
+					"by": "The wire",
+					"discription": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+				},
+				{
+					"id": 4,
+					"by": "Scroll.in",
+					"discription": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+				}
+			],
+			"timeline": {
+				"highest": [
+					{
+						"id": 1,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					}
+				],
+				"high": [
+					{
+						"id": 1,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					},
+					{
+						"id": 2,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					},
+					{
+						"id": 3,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					}
+				],
+				"mid": [
+					{
+						"id": 1,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					},
+					{
+						"id": 2,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					},
+					{
+						"id": 3,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					},
+					{
+						"id": 4,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					},
+					{
+						"id": 5,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					}
+				],
+				"low": [
+					{
+						"id": 1,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					},
+					{
+						"id": 2,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					},
+					{
+						"id": 3,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					},
+					{
+						"id": 4,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					},
+					{
+						"id": 5,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					},
+					{
+						"id": 6,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					},
+					{
+						"id": 8,
+						"date": "2012-07-14T01:00:00+01:00",
+						"description": "Some news sources reported that the up administration and the police have clearly established  using forensic evidence that no rape occured."
+					}
+				]
+			}
+		},
+		{
+			"id": 2,
+			"title": "2020 Hathrus and murder case",
+			"date": "2012-07-14T01:00:00+01:00",
+			"sources": [
+				"Hindustan times",
+				"Times now"
+			],
+			"img": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202010/hathras_police-sixteen_nine.jpg?size=948:533",
+			"discription": "The Hathras \u2018rape\u2019 took place on 14 September, and the victim succumbed to her injuries on 29 September. She was forcibly cremated at 2.25 am on 30 September. But even before this cremation came the news that a 22-year-old woman from the Gihar SC community was allegedly abducted, thrashed, and gang-raped by two men \u2014 Shahid and Salil \u2014 on 29 September in UP\u2019s Balrampur. Two others were also arrested on charges of conspiracy.\r\n\r\nMedia reports at the time said a \u201Churried cremation\u201D took place in the \u201Cpresence of family members\u201D, hours after the post-mortem report came out. \r\n\r\nSpeaking to ThePrint, the Balrampur woman\u2019s brother recalled: \u201CI tried to explain to them (the authorities) that we cannot burn her according to our rituals, but they started pressuring and intimidating us, saying \u2018if you don\u2019t cremate her, the media will come and cause a tamasha and the body will be dug up, and she will not be at rest. Better burn her\u2019. All the family members were pressured separately; we couldn\u2019t do anything.\u201D\r\n\r\nThe brother was the one who lit the pyre after sunset, going against the family\u2019s rituals, amid a heavy police presence. \u201CI was forced to cremate her. It felt like I was cremating a criminal, not a victim. Only our maternal grandfather was present, but what could he do?\u201D the brother said.\r\n\r\n\u201CWe are poor and uneducated people. We had to live in that area where the accused also lived. The police forced us; we did not know whom to trust anymore or how to make our voices heard. We were very scared,\u201D he added.\r\n\r\nThe maternal grandfather, a former secretary of the gram panchayat, said: \u201CSince the time her body arrived, the police kept saying \u2018it\u2019s better to cremate her as quickly as possible\u2026 you are a sarkari man, you understand\u2019.\u201D\r\n\r\nThe family\u2019s lawyer Mrigendra Upadhyay said the brother told him about the forced cremation after it was done, and only when he asked him specifically about the police forcing the family to do it hurriedly.\r\n\r\n\u201CIn fact, Superintendent of Police Dev Ranjan Verma sent police personnel to my residence, and attempts were made to pressure me into asking the family to not talk to the media regarding anything,\u201D Upadhyay claimed.\r\n\r\nHowever, SP Verma denied the family\u2019s claims and called them \u201Cconjecture\u201D.\r\n\r\n\u201CWhy are they making allegations after a year? This lawyer is vindictive; we had lodged an FIR against him earlier and now he wants to pin all this on us. Even the CM and ADG met the family then. This is conjecture\u2026 At that time they hadn\u2019t said anything. They might be making these allegations probably because their demands weren\u2019t met. Anyone can say anything here,\u201D Verma told ThePrint.\r\n\r\nLawyer Upadhyay responded to these questions by saying: \u201CThe body was already cremated, and the family already had a lot of societal pressure on them. The trial had to start and they didn\u2019t think about taking the allegations of intimidation and forceful cremation to the court. They just wanted the culprits to be punished at that point of time.\u201D",
+			"factualdiscrepancies": []
+		},
+		{
+			"id": 3,
+			"title": "2020 Hathrus and murder case",
+			"date": "2012-07-14T01:00:00+01:00",
+			"sources": [
+				"Hindustan times",
+				"Times now"
+			],
+			"img": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202010/hathras_police-sixteen_nine.jpg?size=948:533",
+			"discription": "The Hathras \u2018rape\u2019 took place on 14 September, and the victim succumbed to her injuries on 29 September. She was forcibly cremated at 2.25 am on 30 September. But even before this cremation came the news that a 22-year-old woman from the Gihar SC community was allegedly abducted, thrashed, and gang-raped by two men \u2014 Shahid and Salil \u2014 on 29 September in UP\u2019s Balrampur. Two others were also arrested on charges of conspiracy.\r\n\r\nMedia reports at the time said a \u201Churried cremation\u201D took place in the \u201Cpresence of family members\u201D, hours after the post-mortem report came out. \r\n\r\nSpeaking to ThePrint, the Balrampur woman\u2019s brother recalled: \u201CI tried to explain to them (the authorities) that we cannot burn her according to our rituals, but they started pressuring and intimidating us, saying \u2018if you don\u2019t cremate her, the media will come and cause a tamasha and the body will be dug up, and she will not be at rest. Better burn her\u2019. All the family members were pressured separately; we couldn\u2019t do anything.\u201D\r\n\r\nThe brother was the one who lit the pyre after sunset, going against the family\u2019s rituals, amid a heavy police presence. \u201CI was forced to cremate her. It felt like I was cremating a criminal, not a victim. Only our maternal grandfather was present, but what could he do?\u201D the brother said.\r\n\r\n\u201CWe are poor and uneducated people. We had to live in that area where the accused also lived. The police forced us; we did not know whom to trust anymore or how to make our voices heard. We were very scared,\u201D he added.\r\n\r\nThe maternal grandfather, a former secretary of the gram panchayat, said: \u201CSince the time her body arrived, the police kept saying \u2018it\u2019s better to cremate her as quickly as possible\u2026 you are a sarkari man, you understand\u2019.\u201D\r\n\r\nThe family\u2019s lawyer Mrigendra Upadhyay said the brother told him about the forced cremation after it was done, and only when he asked him specifically about the police forcing the family to do it hurriedly.\r\n\r\n\u201CIn fact, Superintendent of Police Dev Ranjan Verma sent police personnel to my residence, and attempts were made to pressure me into asking the family to not talk to the media regarding anything,\u201D Upadhyay claimed.\r\n\r\nHowever, SP Verma denied the family\u2019s claims and called them \u201Cconjecture\u201D.\r\n\r\n\u201CWhy are they making allegations after a year? This lawyer is vindictive; we had lodged an FIR against him earlier and now he wants to pin all this on us. Even the CM and ADG met the family then. This is conjecture\u2026 At that time they hadn\u2019t said anything. They might be making these allegations probably because their demands weren\u2019t met. Anyone can say anything here,\u201D Verma told ThePrint.\r\n\r\nLawyer Upadhyay responded to these questions by saying: \u201CThe body was already cremated, and the family already had a lot of societal pressure on them. The trial had to start and they didn\u2019t think about taking the allegations of intimidation and forceful cremation to the court. They just wanted the culprits to be punished at that point of time.\u201D",
+			"factualdiscrepancies": []
+		},
+		{
+			"id": 4,
+			"title": "2020 Hathrus and murder case",
+			"date": "2012-07-14T01:00:00+01:00",
+			"sources": [
+				"Hindustan times",
+				"Times now"
+			],
+			"img": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202010/hathras_police-sixteen_nine.jpg?size=948:533",
+			"discription": "The Hathras \u2018rape\u2019 took place on 14 September, and the victim succumbed to her injuries on 29 September. She was forcibly cremated at 2.25 am on 30 September. But even before this cremation came the news that a 22-year-old woman from the Gihar SC community was allegedly abducted, thrashed, and gang-raped by two men \u2014 Shahid and Salil \u2014 on 29 September in UP\u2019s Balrampur. Two others were also arrested on charges of conspiracy.\r\n\r\nMedia reports at the time said a \u201Churried cremation\u201D took place in the \u201Cpresence of family members\u201D, hours after the post-mortem report came out. \r\n\r\nSpeaking to ThePrint, the Balrampur woman\u2019s brother recalled: \u201CI tried to explain to them (the authorities) that we cannot burn her according to our rituals, but they started pressuring and intimidating us, saying \u2018if you don\u2019t cremate her, the media will come and cause a tamasha and the body will be dug up, and she will not be at rest. Better burn her\u2019. All the family members were pressured separately; we couldn\u2019t do anything.\u201D\r\n\r\nThe brother was the one who lit the pyre after sunset, going against the family\u2019s rituals, amid a heavy police presence. \u201CI was forced to cremate her. It felt like I was cremating a criminal, not a victim. Only our maternal grandfather was present, but what could he do?\u201D the brother said.\r\n\r\n\u201CWe are poor and uneducated people. We had to live in that area where the accused also lived. The police forced us; we did not know whom to trust anymore or how to make our voices heard. We were very scared,\u201D he added.\r\n\r\nThe maternal grandfather, a former secretary of the gram panchayat, said: \u201CSince the time her body arrived, the police kept saying \u2018it\u2019s better to cremate her as quickly as possible\u2026 you are a sarkari man, you understand\u2019.\u201D\r\n\r\nThe family\u2019s lawyer Mrigendra Upadhyay said the brother told him about the forced cremation after it was done, and only when he asked him specifically about the police forcing the family to do it hurriedly.\r\n\r\n\u201CIn fact, Superintendent of Police Dev Ranjan Verma sent police personnel to my residence, and attempts were made to pressure me into asking the family to not talk to the media regarding anything,\u201D Upadhyay claimed.\r\n\r\nHowever, SP Verma denied the family\u2019s claims and called them \u201Cconjecture\u201D.\r\n\r\n\u201CWhy are they making allegations after a year? This lawyer is vindictive; we had lodged an FIR against him earlier and now he wants to pin all this on us. Even the CM and ADG met the family then. This is conjecture\u2026 At that time they hadn\u2019t said anything. They might be making these allegations probably because their demands weren\u2019t met. Anyone can say anything here,\u201D Verma told ThePrint.\r\n\r\nLawyer Upadhyay responded to these questions by saying: \u201CThe body was already cremated, and the family already had a lot of societal pressure on them. The trial had to start and they didn\u2019t think about taking the allegations of intimidation and forceful cremation to the court. They just wanted the culprits to be punished at that point of time.\u201D",
+			"factualdiscrepancies": []
+		},
+		{
+			"id": 5,
+			"title": "2020 Hathrus and murder case",
+			"date": "2012-07-14T01:00:00+01:00",
+			"sources": [
+				"Hindustan times",
+				"Times now"
+			],
+			"img": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202010/hathras_police-sixteen_nine.jpg?size=948:533",
+			"discription": "The Hathras \u2018rape\u2019 took place on 14 September, and the victim succumbed to her injuries on 29 September. She was forcibly cremated at 2.25 am on 30 September. But even before this cremation came the news that a 22-year-old woman from the Gihar SC community was allegedly abducted, thrashed, and gang-raped by two men \u2014 Shahid and Salil \u2014 on 29 September in UP\u2019s Balrampur. Two others were also arrested on charges of conspiracy.\r\n\r\nMedia reports at the time said a \u201Churried cremation\u201D took place in the \u201Cpresence of family members\u201D, hours after the post-mortem report came out. \r\n\r\nSpeaking to ThePrint, the Balrampur woman\u2019s brother recalled: \u201CI tried to explain to them (the authorities) that we cannot burn her according to our rituals, but they started pressuring and intimidating us, saying \u2018if you don\u2019t cremate her, the media will come and cause a tamasha and the body will be dug up, and she will not be at rest. Better burn her\u2019. All the family members were pressured separately; we couldn\u2019t do anything.\u201D\r\n\r\nThe brother was the one who lit the pyre after sunset, going against the family\u2019s rituals, amid a heavy police presence. \u201CI was forced to cremate her. It felt like I was cremating a criminal, not a victim. Only our maternal grandfather was present, but what could he do?\u201D the brother said.\r\n\r\n\u201CWe are poor and uneducated people. We had to live in that area where the accused also lived. The police forced us; we did not know whom to trust anymore or how to make our voices heard. We were very scared,\u201D he added.\r\n\r\nThe maternal grandfather, a former secretary of the gram panchayat, said: \u201CSince the time her body arrived, the police kept saying \u2018it\u2019s better to cremate her as quickly as possible\u2026 you are a sarkari man, you understand\u2019.\u201D\r\n\r\nThe family\u2019s lawyer Mrigendra Upadhyay said the brother told him about the forced cremation after it was done, and only when he asked him specifically about the police forcing the family to do it hurriedly.\r\n\r\n\u201CIn fact, Superintendent of Police Dev Ranjan Verma sent police personnel to my residence, and attempts were made to pressure me into asking the family to not talk to the media regarding anything,\u201D Upadhyay claimed.\r\n\r\nHowever, SP Verma denied the family\u2019s claims and called them \u201Cconjecture\u201D.\r\n\r\n\u201CWhy are they making allegations after a year? This lawyer is vindictive; we had lodged an FIR against him earlier and now he wants to pin all this on us. Even the CM and ADG met the family then. This is conjecture\u2026 At that time they hadn\u2019t said anything. They might be making these allegations probably because their demands weren\u2019t met. Anyone can say anything here,\u201D Verma told ThePrint.\r\n\r\nLawyer Upadhyay responded to these questions by saying: \u201CThe body was already cremated, and the family already had a lot of societal pressure on them. The trial had to start and they didn\u2019t think about taking the allegations of intimidation and forceful cremation to the court. They just wanted the culprits to be punished at that point of time.\u201D",
+			"factualdiscrepancies": []
 		}
 	],
 	"comments": [

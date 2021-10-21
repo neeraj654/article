@@ -18,14 +18,14 @@
       "error",
       {
           
-        "semi": false,
+        "semi": true,
         "trailingComma": "es5",
         "singleQuote": true,
         "printWidth": 80,
         "jsxSingleQuote": true, 
         "tsxSingleQuote":true,
         "useTabs": true,
-        "parser": "flow",
+        // "parser": "flow",
         "tabWidth":3
       }
     ]
